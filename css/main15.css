@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+}
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradien(black,gray);
+}
+.loader-block{
+    width: 500px;
+    height: 120px;
+    /*border: 8px solid rgba(255, 255, 255, 0.5); */
+    position: relative;
+    top: 40%;
+    left: 40%;
+}
+.loader-item{
+    width: 50px;
+    height: 100px;
+    border-radius: 20%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    animation-name: loader;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: aliceblue;
+}
+.loader-item:nth-child(2){
+    width: 50px;
+    height: 135px;
+    top: 10%;
+    left: 10%;
+    animation-delay: 0.5s;
+}
+.loader-item:nth-child(3){
+    width: 50px;
+    height: 160px;
+    top: 10%;
+    left: 20%;
+    animation-delay: 1s;
+}
+.loader-item:nth-child(4){
+    width: 50px;
+    height: 135px;
+    top: 10%;
+    left: 30%;
+    animation-delay: 1.5s;
+}
+.loader-item:nth-child(5){
+    width: 60px;
+    height: 60px;
+    top: 45%;
+    left: 40%;
+    animation-delay: 0s;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+@keyframes loader{
+    0%{
+        transform: translate(0,0);
+        border-color: #fff757;
+    }
+    25%{
+        transform: translate(0,-15px);
+        border-color: #ff786d;
+    }
+    50%{
+        transform: translate(0,0);
+        border-color: #6bff77;
+    }
+    75%{
+        transform: translate(0,15px);
+        border-color: #979bff;
+    }
+    100%{
+        transform: translate(0,0);
+        border-color: #ffffff;
+    }
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+
+.t{
+    width: 50px;
+    height: 25px;
+    background-color: blue;
+    border: 0px solid;
+    border-bottom-left-radius: 40%;
+    margin-left: 5px;
+}
+.o1{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border: 0px solid;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.o2{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border: 0px solid;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+.o3{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border: 0px solid;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.o4{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border: 0px solid;
+    border-radius: 50%;
+    margin-left: 5px;
+}

@@ -1,0 +1,27 @@
+.row{
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(45deg,violet,blueviolet,blue);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.bosh{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 50px;
+    line-height: 180px;
+    color: rgba(0,2,200,0.5);
+}
+.bosh1{
+    border-radius: 20px;
+    font-size: 50px;
+    line-height: 180px;
+    color: rgba(0,0,200,0.3);
+}
+.col{
+    padding: 160px 90px;
+}
+

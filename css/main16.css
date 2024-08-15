@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+}
+
+
+.bi{
+    background-image: url(../rasm/ico.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+.ik{
+    background-image: url(../rasm/fox.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+.uc{
+    background-image: url(../rasm/go.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+.to{
+    background-image: url(../rasm/pinh.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+.be{
+    background-image: url(../rasm/she.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+.card1{
+    background-color: white;
+    float: left;
+    transform: rotate(-30deg);
+    width: 250px;
+    height: 100%;
+    border-radius: 10%;
+    margin-top: 10%;
+    margin-left: 100px;
+}
+.card2{
+    background-color: white;
+    float: left;
+    transform: rotate(-20deg);
+    width: 250px;
+    height: 100%;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+.card3{
+    background-color: white;
+    transform: rotate(0deg);
+    float: left;
+    width: 250px;
+    height: 650px;
+    border-radius: 10%;
+    margin-top: 50px;
+}
+.card4{
+    background-color: white;
+    float: left;
+    transform: rotate(20deg);
+    width: 250px;
+    height: 100%;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+.card5{
+    background-color: white;
+    float: left;
+    transform: rotate(30deg);
+    width: 250px;
+    height: 100%;
+    border-radius: 10%;
+    margin-top: 10%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

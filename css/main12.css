@@ -1,0 +1,108 @@
+.wrap{
+    border: 3px solid black;
+    line-height: 50%;
+    width: 585px;
+    height: 170px;
+}
+.td{
+    border: 3px solid black;
+    text-align: center;
+    line-height: 20px;
+    width: 190px;
+    height: 110px;
+    float: left;
+    padding-top: 60px;
+}
+.td1{
+    border: 3px solid black;
+    text-align: center;
+    line-height: 20px;
+    width: 190px;
+    height: 150px;
+    float: left;
+    padding-top: 20px;
+}
+.kub1{
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 140px;
+    height: 140px;
+    margin-left: 220px;
+    margin-top: 5px;
+    box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 20px 20px 10px black;
+}
+.kub2{
+    background-color: orange;
+    border: 2px solid black;
+    width: 140px;
+    height: 140px;
+    margin-left: 420px;
+    margin-top: -143px;
+    box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 20px 20px 10px black;
+}
+.kub3{
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 140px;
+    height: 140px;
+    margin-left: 220px;
+    margin-top: 5px;
+    box-shadow: 0 0 10px inset black;
+    -webkit-box-shadow: 10px 10px 10px inset black;
+}
+.kub4{
+    background-color: orange;
+    border: 2px solid black;
+    width: 140px;
+    height: 140px;
+    margin-left: 420px;
+    margin-top: -143px;
+    box-shadow: 0 0 10px inset black;
+    -webkit-box-shadow: 10px 10px 10px inset black;
+}
+.kub5{
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 140px;
+    height: 140px;
+    margin-left: 220px;
+    margin-top: 5px;
+    box-shadow: 0 0 10px inset black;
+    -webkit-box-shadow: -20px -20px 10px inset black;
+}
+.kub6{
+    background-color: orange;
+    border: 2px solid black;
+    width: 140px;
+    height: 140px;
+    margin-left: 420px;
+    margin-top: -143px;
+    box-shadow: 0 0 10px inset black;
+    -webkit-box-shadow: -20px -20px 10px inset black;
+}
+.kub7{
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 140px;
+    height: 140px;
+    margin-left: 220px;
+    margin-top: 5px;
+    box-shadow: 0 0 10px inset black;
+    -webkit-box-shadow: 20px 20px 10px inset black;
+}
+.kub8{
+    background-color: orange;
+    border: 2px solid black;
+    width: 140px;
+    height: 140px;
+    margin-left: 420px;
+    margin-top: -143px;
+    box-shadow: 0 0 10px inset black;
+    -webkit-box-shadow: 20px 20px 10px inset black;
+}

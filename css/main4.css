@@ -1,0 +1,21 @@
+.col{
+    width: 900px;
+    height: 550px;
+    border-radius: 8px;
+    background: radial-gradient(red,yellow,green);
+    /*border: 1px solid grey;*/
+    box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    -webkit-box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    -moz-box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    -o-box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    -ms-box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    /*margin: 0 20px;*/
+    transition: all 0.5s ease-in-out;
+}
+.col:hover{
+    background-color: #7de29e;
+    color: white;
+    box-shadow: 0 0 10px rgba(80,80,80,0.8);
+    -webkit-box-shadow: 0 0 10px rgba(80,80,80,0.8);
+}
+

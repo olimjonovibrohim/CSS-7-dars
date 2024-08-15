@@ -1,0 +1,364 @@
+body{
+    background-color: black;
+}
+.kuchuk{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradien(black,gray);
+}
+.block{
+    width: 500px;
+    height: 120px;
+    /*border: 8px solid rgba(255, 255, 255, 0.5); */
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+.az5{
+    width: 200px;
+    height: 200px;
+    border-radius: 45%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: rgb(255, 255, 255);
+}
+.az2{
+    width: 170px;
+    height: 130px;
+    border-radius: 30%;
+    position: absolute;
+    margin-top: 0;
+    margin-left: -80px;
+    animation-name: azq1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: brown;
+}
+.az3{
+    width: 170px;
+    height: 130px;
+    border-radius: 30%;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 100px;
+    animation-name: azq2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: brown;
+}
+.az4{
+    width: 50px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 60px;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: rgb(217, 237, 255);
+}
+
+
+
+.az6{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    animation-name: az6;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border: 20px solid rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    border-right-color: brown;
+    border-bottom-color: brown;
+}
+.az7{
+    width: 400px;
+    height: 240px;
+    border-radius: 30%;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+.az8{
+    width: 50px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    left: 360px;
+    animation-name: o1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+.az1{
+    width: 50px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    animation-name: o2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+.az9{
+    width: 250px;
+    height: 160px;
+    border-radius: 40%;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: rgb(190, 122, 122);
+}
+.az10{
+    width: 60px;
+    height: 100px;
+    border-radius: 45%;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    animation-name: az5;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: red;
+}
+
+
+
+
+
+.az11{
+    width: 70px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 90px;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: rgb(217, 237, 255);
+}
+.az12{
+    width: 70px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 40px;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: rgb(217, 237, 255);
+}
+.az13{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 115px;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: rgb(64, 77, 90);
+}
+.az14{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 65px;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: rgb(64, 77, 90);
+}
+.az15{
+    width: 170px;
+    height: 190px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 40px;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: brown;
+}
+.az16{
+    width: 170px;
+    height: 190px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -10px;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: brown;
+}
+.az17{
+    width: 70px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 80px;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: rgb(110, 40, 40);
+}
+.az18{
+    width: 70px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: rgb(110, 40, 40);
+}
+
+@keyframes az6{
+    0%{
+        transform: rotate(10deg);
+    }
+    25%{
+        transform: rotate(60deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    75%{
+        transform: rotate(60deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+@keyframes az5{
+    0%{
+        transform: translateY(30px);
+    }
+    25%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    75%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(30px);
+    }
+}
+@keyframes azq2{
+    0%{
+        transform: rotate(40deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(40deg);
+    }
+    75%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(40deg);
+    }
+}
+@keyframes azq1{
+    0%{
+        transform: rotate(-40deg);
+    }
+    25%{
+        transform: rotate(-10deg);
+    }
+    50%{
+        transform: rotate(-40deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(-40deg);
+    }
+}
+@keyframes o1{
+    0%{
+        transform: rotate(-35deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-35deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-35deg);
+    }
+}
+@keyframes o2{
+    0%{
+        transform: rotate(-35deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-35deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-35deg);
+    }
+}
